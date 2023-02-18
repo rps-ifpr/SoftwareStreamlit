@@ -10,5 +10,6 @@
 <hr>
 
 <p align="center"> 
-<img src= "https://user-images.githubusercontent.com/91737931/206232364-7f46bbc8-442b-4f3d-b3e1-437aa53ea692.png"/>
+<img src= "https://user-images.githubusercontent.com/91737931/219876248-0b61e0b4-a903-4013-9e1b-8045ff7c4b73.jpg"/>
+
 </p>
