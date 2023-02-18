@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-    Transformando um projeto de ciência de dados e machine learning em uma aplicação interativa. Ao final é gerada uma URL pública permitindo o acesso.
+    Transformando o projeto de ciência de dados e machine learning em uma aplicação interativa. Ao final é gerada uma URL pública permitindo o acesso.
 </p>
                              
 <hr>
