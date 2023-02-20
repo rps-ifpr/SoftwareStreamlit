@@ -1,0 +1,12 @@
+
+#1 Criando o ambiente: python -m venv venv
+#2 Ativando o ambiente: venv\Scripts\activate
+#3 Instalando os pacotes do requirements.txt: pip install -r requirements.txt
+
+# Criando o primeiro app utilizando Streamlit
+# Dentro da pasta do projeto criar um script chamado app.py
+# Para conseguirmos visualizar esse código em ação: streamlit run app.py
+
+Nesse link há um formulário de cadastro onde devemos preencher com nosso primeiro nome,
+último nome e e-mail que utilizamos no GitHub.
+# https://forms.streamlit.io/streamlit-snowflake
