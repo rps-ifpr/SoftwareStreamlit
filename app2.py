@@ -24,4 +24,23 @@ if st.sidebar.button('Exibir Grafico'):
         np.random.rand (10, 4),  # linhas e colunas
         columns=['Preço', 'Taxa de Ocupação', 'Taxa de Inadimplência', 'Pessoas por Casa'])
     st.bar_chart(df)
-    
+
+check = st.sidebar.checkbox('Aceitos')
+if check:
+     st.write('Marcado')
+
+opcao = st.sidebar.radio( #ou selectbox ou multiselect ou slider
+    'Selecione uma opcao',
+    ('Preço', 'Taxa de Ocupação')
+)
+if opcao == 'Preço':
+    df = pd.DataFrame (
+        np.random.rand (10, 1),  # linhas e colunas
+        columns=['Preço'])
+    st.bar_chart (df)
+
+if opcao == 'Taxa de Ocupação':
+    df = pd.DataFrame (
+        np.random.rand (10, 1),  # linhas e colunas
+        columns=['Taxa de Ocupação'])
+    st.bar_chart (df)
